@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #222;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Hero Section Image */
+.hero img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+/* Section Headings */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* Text Muted */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.social-bar a {
+    text-decoration: none; /* Removes the underline */
+}
+
+.social-bar a:hover {
+    color: #ff6f61; /* Optional: Add a hover color */
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.btn-custom {
+    background-color: #FFC0CB; /* Custom background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-custom:hover {
+    background-color: #ff8a75; /* Lighter shade on hover */
+}
+
